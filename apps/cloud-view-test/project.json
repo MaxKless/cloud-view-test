@@ -1,0 +1,9 @@
+{
+  "name": "cloud-view-test",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/cloud-view-test/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project cloud-view-test --web",
+  "targets": {}
+}
