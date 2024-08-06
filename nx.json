@@ -41,6 +41,6 @@
       "library": { "style": "tailwind", "linter": "eslint" }
     }
   },
-  "nxCloudAccessToken": "YTIwMDhiNDktMmFlOC00NTg3LWI4ZDctMGI5NWY3NGI3NzdkfHJlYWQtd3JpdGU=",
+  "nxCloudAccessToken": "ZTllMThkMDYtNDNjNi00ZWQzLThiZWEtZTU1NmNiZmVjMTY5fHJlYWQtd3JpdGU=",
   "nxCloudUrl": "https://staging.nx.app"
 }
