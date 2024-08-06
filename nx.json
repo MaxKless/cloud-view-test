@@ -40,5 +40,7 @@
       "component": { "style": "tailwind" },
       "library": { "style": "tailwind", "linter": "eslint" }
     }
-  }
+  },
+  "nxCloudId": "66b0ce42b41143f6c805922d",
+  "nxCloudUrl": "https://staging.nx.app"
 }
