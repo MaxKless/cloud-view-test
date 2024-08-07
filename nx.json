@@ -12,7 +12,10 @@
       "!{projectRoot}/src/test-setup.[jt]s",
       "!{projectRoot}/test-setup.[jt]s"
     ],
-    "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
+    "sharedGlobals": [
+      "{workspaceRoot}/.github/workflows/ci.yml",
+      "{workspaceRoot}/.github/workflows/ci.yml"
+    ]
   },
   "plugins": [
     {
@@ -25,9 +28,24 @@
         "serveStaticTargetName": "serve-static"
       }
     },
-    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
-    { "plugin": "@nx/playwright/plugin", "options": { "targetName": "e2e" } },
-    { "plugin": "@nx/jest/plugin", "options": { "targetName": "test" } }
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "plugin": "@nx/playwright/plugin",
+      "options": {
+        "targetName": "e2e"
+      }
+    },
+    {
+      "plugin": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
   ],
   "generators": {
     "@nx/react": {
@@ -37,10 +55,15 @@
         "linter": "eslint",
         "bundler": "vite"
       },
-      "component": { "style": "tailwind" },
-      "library": { "style": "tailwind", "linter": "eslint" }
+      "component": {
+        "style": "tailwind"
+      },
+      "library": {
+        "style": "tailwind",
+        "linter": "eslint"
+      }
     }
   },
-  "nxCloudId": "66b213daf79585265e29f1fa",
+  "nxCloudAccessToken": "OWU3MDc2ZTEtYzM0Yy00ZjY4LTkyNDAtYzljYTQyYzJjZWU5fHJlYWQtd3JpdGU=",
   "nxCloudUrl": "https://staging.nx.app"
 }
