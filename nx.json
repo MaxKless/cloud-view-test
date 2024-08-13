@@ -64,6 +64,6 @@
       }
     }
   },
-  "nxCloudAccessToken": "OWU3MDc2ZTEtYzM0Yy00ZjY4LTkyNDAtYzljYTQyYzJjZWU5fHJlYWQtd3JpdGU=",
-  "nxCloudUrl": "https://staging.nx.app"
+  "nxCloudUrl": "https://staging.nx.app",
+  "nxCloudId": "66bb7bf5fed8cdf1c535f9ea"
 }
