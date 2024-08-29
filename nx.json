@@ -28,24 +28,9 @@
         "serveStaticTargetName": "serve-static"
       }
     },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
-    {
-      "plugin": "@nx/playwright/plugin",
-      "options": {
-        "targetName": "e2e"
-      }
-    },
-    {
-      "plugin": "@nx/jest/plugin",
-      "options": {
-        "targetName": "test"
-      }
-    }
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
+    { "plugin": "@nx/playwright/plugin", "options": { "targetName": "e2e" } },
+    { "plugin": "@nx/jest/plugin", "options": { "targetName": "test" } }
   ],
   "generators": {
     "@nx/react": {
@@ -55,15 +40,11 @@
         "linter": "eslint",
         "bundler": "vite"
       },
-      "component": {
-        "style": "tailwind"
-      },
-      "library": {
-        "style": "tailwind",
-        "linter": "eslint"
-      }
+      "component": { "style": "tailwind" },
+      "library": { "style": "tailwind", "linter": "eslint" }
     }
   },
   "nxCloudUrl": "https://staging.nx.app",
-  "nxCloudId": "66bb7bf5fed8cdf1c535f9ea"
+  "nxCloudId": "66bb7bf5fed8cdf1c535f9ea",
+  "nxCloudAccessToken": "MmYyZjVlMzEtNzU1OS00ZTJhLWI2ZDktYWM5NTMxZGJlM2VkfHJlYWQtd3JpdGU="
 }
